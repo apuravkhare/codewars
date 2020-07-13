@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d32bd730ba00a3ec550bd93c2040a8193181d81436f0a343e723d4a0c47fb34c
+-- hash: 3f6e1c2b2e2c25fc31e55a9b24ce62f1a9ce372888c65c8aba1754b5574dfa60
 
 name:           HaskellSolutions
 version:        0.1.0.0
@@ -27,7 +27,10 @@ source-repository head
 
 library
   exposed-modules:
+      BackspacesInString
+      ConsonantValue
       Lib
+      MergedStringChecker
       Worda10n
   other-modules:
       Paths_HaskellSolutions
